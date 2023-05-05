@@ -1,0 +1,639 @@
+:root{
+    --primary-color: #00fd1e
+}
+
+*{
+    font-family: 'Poppins' !important;
+}
+
+.bannerTop{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 12px 0;
+}
+
+.contTop{
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.copy01{
+    font-size: 3em;
+    color: #fff;
+}
+
+.logo{
+    width: 200px;
+    margin: 22px 0;
+    filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(0deg) brightness(236%) contrast(107%);
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.copy02{
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copy02 span{
+    color: #002500;
+}
+
+
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contentHero{
+  text-align: center;
+}
+
+.conteHero{
+    background-image: url('/img/111.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.video{
+    border: 8px solid #ffffff;
+    border-radius: 5px;
+}
+
+/* CSS */
+.button-34 {
+    margin: 22px 0;
+    background: #55fe00;
+    border-radius: 999px;
+    box-shadow: #55fe00 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 20px 48px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+  .cardContent{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .imgCart{
+    width: 700px;
+    filter: invert(100%) sepia(5%) saturate(7492%) hue-rotate(207deg) brightness(106%) contrast(107%);
+  }
+
+
+  .imgCart img{
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .sect01{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    padding: 3em 0;
+    background-image: url('img/12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contentSec01{
+    align-items: center;
+  }
+
+  .encaPng{
+    width: 650px;
+  }
+
+  .encaPng img{
+    width: 100%;
+    height: auto;
+  }
+
+  .titleNew{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #004300;
+  }
+
+  .titleNew span {
+    color: #fafffa;
+    padding: 0 22px;
+    background-color: #55fe00;
+  }
+
+  ul{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .spn1{
+    font-weight: bold;
+
+  }
+
+
+  .sect02{
+    overflow: hidden;
+    /* background-color: #004300; */
+    background-image: url('img/112.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 82px;
+  }
+
+  .imgNicole{
+    width: 530px;
+  }
+
+  .imgNicole img{
+    width: 100%;
+    height: auto;
+  }
+
+  .titleSec2{
+    color: #fafffa;
+  }
+
+  .contSec2Desc h2{
+    font-size: 3.2em;
+    font-weight: bold;
+  }
+
+  .titleSec2 span{
+    color: var(--primary-color);;
+  }
+
+  .contSec2Desc p{
+    color: #ffffff;
+  }
+
+  .sect03 {
+    background-color: #f8fff1;
+    /* background-image: url('img/113.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 52px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .contentTestemunhos{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .titleTestemunhos{
+    font-weight: bold;
+    font-size: 3em;
+  }
+
+  .titleTestemunhos span{
+    color: #55fe00;
+  }
+
+  .imgSlideTest{
+   
+  }
+
+  .imgSlideTest img{
+    width: 100%;
+    height: auto;
+  }
+
+  .listTeste li{
+    width: 100%;
+    list-style: none;
+    margin: 22px 0;
+  }
+
+  .listTeste li span{
+    margin-left: 2rem;
+  }
+
+  .listTeste{
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+
+  .seloTestemunho{
+    width: 400px;
+  }
+
+  .seloTestemunho img{
+    width: 100%;
+    height: auto;
+  }
+
+  .testemunhoDescri{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mySwiper{
+}
+
+.novo{
+    position: relative;
+    z-index: -9px;
+  }
+
+  .button-next{
+    border-radius: 2px 0 0 2px ;
+    bottom: 50%;
+    background-color: #1a1a1a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: #ffffff;
+    padding: 22px 10px;
+    z-index: 999;
+    position: absolute;
+    right: 0;
+  }
+
+  .button-prev{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 0 2px 2px 0;
+    bottom: 50%;
+    position: absolute;
+    padding: 22px 10px;
+    z-index: 999;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    z-index: 999;
+  }
+
+  .button-prev:focus {
+    background-color: #111111;
+    color: #ffffff;
+  }
+  .button-next:focus {
+    background-color: #111111;
+    color: #ffffff;
+  }
+
+  .titleSec4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .titleSec4 span{
+    color: #55fe00;
+  }
+
+  .sect04{
+    padding: 82px 0;
+  }
+
+  .cardSec4{
+    padding: 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: #ffff;
+    border-radius: 12px;
+    border-bottom: 5px solid #55fe00;
+  }
+
+  .imgSecCard4{
+    width: 100px;
+    filter: invert(63%) sepia(87%) saturate(1010%) hue-rotate(52deg) brightness(108%) contrast(116%);
+  }
+
+  .imgSecCard4 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .contSec4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .sect05{
+    background-color: #0F3312;
+    color: #fff;
+  }
+
+  .contentSect5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 52px 0;
+  }
+
+  .textsec5{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    margin: 22px 0;
+  }
+
+  .imgMockup{
+    width: 200px;
+    height: 180px;
+    margin: 32px 0;
+    overflow: hidden;
+  }
+
+  .imgMockup img{
+    width: 100%;
+    height: auto;
+  }
+
+  .cardProduto{
+    padding: 22px 0;
+    background-color: #fff;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+  }
+
+  .cardProduto h4{
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .cardProduto h4 span{
+    color: #52cd15;
+  }
+
+  .cardProduto h3{
+    font-size: 1.2em;
+    margin-top: 12px;
+  }
+
+  .cardProduto h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: #52cd15;
+  }
+
+  .cardProduto h3 s{
+    font-weight: bold;
+  }
+
+  .frete{
+    background-color: #fff200;
+    padding: 12px 0;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .btnCompra{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: -18px 0;
+  }
+
+  .btnNovo{
+    background-color: #55fe00 !important;
+    border: none !important;
+    padding: 12px;
+    border-radius: 6px;
+    transition: 1s !important;
+    color: #fff;
+  }
+
+  .btnNovo:hover{
+    font-size: 18px !important;
+  }
+
+  .tratamento{
+    padding: 0 12px;
+    font-size: 1.5em;
+    margin: 12px 0;
+  }
+
+  .textsecdes5{
+    margin-top: 2em 0;
+    padding-top: 3em;
+    font-size: 2em;
+    text-align: center;
+  }
+
+
+  .sect06{
+    padding: 52px 0;
+  }
+
+  .imgEnca{
+    width: 500px;
+  }
+
+  .imgEnca img{
+    width: 100%;
+    height: auto;
+  }
+
+  .rContent{
+    align-items: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contText{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contText h3{
+    font-size: 2.4em;
+    font-weight: bold;
+  }
+
+  .contText h3 span{
+    color: #4cb418;
+  }
+
+  .contText p{
+    width: 89%;
+  }
+
+  .sect07{
+    background-color: #0F3312;
+    color: #fff;
+    padding: 52px 0;
+  }
+
+  .textSet7{
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .textSet7 h3{
+    padding: 33px 0;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .textSet7 h3 span{
+    color: #52cd15;
+  }
+
+  .footer_copy{
+    padding: 22px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p{
+    margin: 0 !important;
+  }
+
+  footer{
+    color: #fff;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    padding: 0 22px;
+  }
+
+
+  .video{
+
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+  }
+
+  .video > iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 500px){
+  .encaPng{
+    width: 350px;
+  }
+    
+  .imgNicole{
+    width: 400px;
+  }
+
+  .imgEnca{
+    width: 200px;
+  }
+  
+  .seloTestemunho{
+    width: 100%;
+  }
+
+
+  
+
+
+  
+  .titleNew{
+    width: 100%;
+
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #004300;
+  }
+
+  .new_p{
+    font-size: 1em;
+  }
+
+  .button-34{
+    font-size: 1em;
+  }
+
+  .titleTestemunhos{
+    font-size: 2em;
+  }
+
+  .textsecdes5{
+    font-size: 1.2em;
+  }
+
+  .cardSepa{
+    margin-bottom: 2em;
+  }
+
+  .textsec5{
+    font-size: 1.3em;
+  }  
+
+  .dois{
+    margin-top: 2em;
+    width: 300px;
+  }
+
+  .listTeste {
+    font-size: 1em;
+  }
+
+  
+  .listTeste li span{
+    margin-left: 0.5em;
+  }
+
+  .copy01{
+    font-size: 1.5em;
+    color: #fff;
+  }
+
+  .copy02{
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #fff;
+  }
+  }

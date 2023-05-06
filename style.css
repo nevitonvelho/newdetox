@@ -542,11 +542,17 @@
     padding: 0 22px;
   }
 
+  .videocontent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
 
   .video{
-
+    width: 926px;
     padding: 20px;
-    padding-bottom: 50%;
+    padding-bottom: 40%;
     position: relative;
   }
 
